@@ -4,4 +4,4 @@ var user = {
 };
 
 console.log("test");
-console.log(user.email);
+console.log(user.name);

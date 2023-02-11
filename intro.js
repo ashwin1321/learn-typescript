@@ -3,4 +3,4 @@ var user = {
     age: 30
 };
 console.log("test");
-console.log(user.email);
+console.log(user.name);
