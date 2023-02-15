@@ -46,4 +46,9 @@ const data1: string[] = ["four", "string"]; // array of strings
 const data2: (number | string)[] = [1, 2, 3, "four", "string"]; // array of numbers and strings
 // const dataa: number[] | string[] = [1, 2, 3, "4", "5"];  // error because it is not a union type
 
+let pi: 3.14 = 3.14; // pi is a number with value 3.14 and it is a literal type
+
+let seatAllotment: "window" | "aisle" | "middle"; // seatAllotment is a string with value window, aisle or middle and other values are not allowed
+// seatAllotment = "crew";  // error
+
 export {};

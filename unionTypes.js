@@ -30,3 +30,6 @@ function getDbId(id) {
 var data = [1, 2, 3, 4, 5]; // array of numbers
 var data1 = ["four", "string"]; // array of strings
 var data2 = [1, 2, 3, "four", "string"]; // array of numbers and strings
+// const dataa: number[] | string[] = [1, 2, 3, "4", "5"];  // error because it is not a union type
+var pi = 3.14; // pi is a number with value 3.14 and it is a literal type
+var seatAllotment; // seatAllotment is a string with value window, aisle or middle and other values are not allowed
