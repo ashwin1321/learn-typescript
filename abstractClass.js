@@ -1,6 +1,7 @@
 "use strict";
 // abstract class is similar to interfaces
 // objects cannot be created from a abstract class
+// unlike interfaces abstract classes can have constructor and not all methods need to be used compulsorily in the child class
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -22,6 +23,7 @@ var TakePhoto = /** @class */ (function () {
         this.cameraMode = cameraMode;
         this.filter = filter;
     }
+    TakePhoto.prototype.takePhoto = function () { };
     return TakePhoto;
 }());
 // const test = new TakePhoto("auto", "test"); // Cannot create an instance of an abstract class.

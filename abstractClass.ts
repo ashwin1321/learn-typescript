@@ -1,10 +1,13 @@
 // abstract class is similar to interfaces
 // objects cannot be created from a abstract class
+// unlike interfaces abstract classes can have constructor and not all methods need to be used compulsorily in the child class
 
 abstract class TakePhoto {
   constructor(public cameraMode: string, public filter: string) {}
 
   abstract getdata(): void;
+
+  takePhoto() {}
 }
 
 // const test = new TakePhoto("auto", "test"); // Cannot create an instance of an abstract class.
